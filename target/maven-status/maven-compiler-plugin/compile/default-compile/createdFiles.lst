@@ -1,0 +1,4 @@
+config\Conexion.class
+modelo\Oradores.class
+modelo\OradoresDAO.class
+controlador\OradoresController.class
