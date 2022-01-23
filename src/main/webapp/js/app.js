@@ -103,8 +103,6 @@ const comprarTicket = () => {
   document.getElementById("btn-borrar").addEventListener("click", borrarTicket);
 };
 
-//TODO: el type del botón Resumen es "button". En el form la action es index.html y el método es POST
-
 const calcularTicket = (perc1, perc2, perc3) => {
   const precioTicket = 200;
   let datos = document.querySelectorAll("input");
