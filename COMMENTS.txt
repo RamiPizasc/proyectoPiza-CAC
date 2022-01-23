@@ -1,0 +1,24 @@
+Index.html
+
+43: con pe-5 agregamos padding al final de los elementos nav-link
+
+66: agregamos id a este nav-link para cambiar color de enlace
+
+89, 96, 103: agregamos id a cada img para modificar height y width de img 
+
+133: creamos clase btn btn-hawaii para cambiar color de botón en CSS
+
+265: agregamos id para modificar max-height y width de la img
+
+267: agregamos la clase bg-honolulu para personalizar el color del fondo y el color de la letra en CSS
+
+270: agregamos id para modificar font-size de texto
+
+335: agregamos id al botón para configurar desde CSS
+
+348: agregamos la clase footer para adaptar color de fondo y tamaños de letra desde CSS
+
+styles CSS
+
+Hoja ordenada de acuerdo a las etiquetas html, clases, ID's y componentes Bootstrap
+

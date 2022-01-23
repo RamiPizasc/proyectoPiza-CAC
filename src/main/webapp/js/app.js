@@ -69,7 +69,7 @@ const comprarTicket = () => {
                         <div class="d-flex py-2">
                             <div class="form-group col-6 col-md-6 p-1">
                                 <label for="">Cantidad</label>
-                                <input type="number" class="form-control" placeholder="Cantidad" />
+                                <input type="number" class="form-control" placeholder="Cantidad" min="1" step="1" oninput="this.value=this.value.replace(/[^0-9]/g)"/>
                             </div>
                             <div class="form-group col-6 col-md-6 p-1">
                                 <label for="">Categoría</label>

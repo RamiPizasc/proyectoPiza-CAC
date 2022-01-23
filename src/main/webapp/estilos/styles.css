@@ -1,37 +1,21 @@
-/* HTML */
+/* ELEMENTOS HTML */
 html {
   scroll-behavior: smooth;
 }
 
-/* NAVBAR */
-.bg-negro {
-  background-color: rgba(0, 0, 0, 0.781);
-}
-.navbar-brand,
-.text-decoration-none {
-  color: white;
-}
-.navbar-brand:hover {
-  color: white;
-}
-
-/* NAV-LINK */
-.nav-link {
-  color: rgb(173, 173, 173);
-}
-.nav-link:hover {
-  color: #fff;
-}
-#tickets {
-  color: rgb(19, 200, 19);
-}
-#tickets:hover {
-  color: rgb(23, 255, 23);
-}
+/* CLASES & ID'S PARA ELEMENTOS HTML */
 
 /* CURSOR */
 .cursor {
   cursor: pointer;
+}
+
+/* FORM */
+#exampleFormControlTextarea1 {
+  font-size: 1.5rem;
+}
+#form-enviar {
+  width: 70%;
 }
 
 /* BUTTONS */
@@ -67,6 +51,35 @@ html {
   padding-left: 1.5rem;
 }
 
+/* FOOTER */
+.footer {
+  background-color: rgb(18, 62, 98);
+  font-size: 0.9rem;
+}
+.footer-anchors a {
+  text-decoration: none;
+  color: white;
+}
+.footer-anchors a:hover {
+  text-decoration: underline;
+}
+
+/* IMAGE SIZE */
+#img-edificio,
+#img-cafe,
+#img-obelisco {
+  object-fit: none;
+  width: 100%;
+  height: 57rem;
+}
+#img-honolulu {
+  max-height: 58rem;
+  object-fit: none;
+  width: 100%;
+}
+
+/* COMPONENTES BOOTSTRAP */
+
 /* CARRUSEL */
 #carusel-title,
 #carusel-text {
@@ -93,37 +106,28 @@ html {
   color: white;
 }
 
-/* FORM */
-#exampleFormControlTextarea1 {
-  font-size: 1.5rem;
+/* NAVBAR */
+.bg-negro {
+  background-color: rgba(0, 0, 0, 0.781);
 }
-#form-enviar {
-  width: 70%;
-}
-
-/* FOOTER */
-.footer {
-  background-color: rgb(18, 62, 98);
-  font-size: 0.9rem;
-}
-.footer-anchors a {
-  text-decoration: none;
+.navbar-brand,
+.text-decoration-none {
   color: white;
 }
-.footer-anchors a:hover {
-  text-decoration: underline;
+.navbar-brand:hover {
+  color: white;
 }
 
-/* IMAGE SIZE */
-#img-edificio,
-#img-cafe,
-#img-obelisco {
-  object-fit: none;
-  width: 100%;
-  height: 57rem;
+/* NAV-LINK */
+.nav-link {
+  color: rgb(173, 173, 173);
 }
-#img-honolulu {
-  max-height: 58rem;
-  object-fit: none;
-  width: 100%;
+.nav-link:hover {
+  color: #fff;
+}
+#tickets {
+  color: rgb(19, 200, 19);
+}
+#tickets:hover {
+  color: rgb(23, 255, 23);
 }
